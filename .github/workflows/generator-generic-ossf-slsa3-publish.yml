@@ -13,6 +13,7 @@
 name: SLSA generic generator
 on:
   workflow_dispatch:
+  push:
   release:
     types: [created]
 
